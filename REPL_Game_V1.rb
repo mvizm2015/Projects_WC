@@ -13,8 +13,6 @@ puts  "|            |__|_|"
 puts  "|            |____)"
 puts  "|____________|"
 puts "(______________)"
-#for every line, a puts is needed
-
 
 require 'colorize'
 puts 'Beer witih Me, The Journey! 🍻'.red
@@ -26,7 +24,6 @@ def main
   print "👉 "
   bar = gets.chomp.downcase
 
-  # puts bar
   case bar
   when "wood"
     puts "Move onto level 2: Trivia "
@@ -83,6 +80,6 @@ def main
         puts "You've had enough to drink for the night"
       end
     end
-  end # def main
+  end 
 end
 main
